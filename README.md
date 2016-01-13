@@ -10,7 +10,7 @@ This repo is to house a cookbook to quickly configure and setup any Linux distro
   * chruby + ruby-install + ruby
   * + necessary rubygems like bundler
   * virtualenv + python
-  * nvm + node (you know know haha)
+  * nvm + node (you never know haha)
 * postgres
 * virtualbox
 * vagrant
