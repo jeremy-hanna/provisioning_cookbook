@@ -2,18 +2,24 @@
 This repo is to house a cookbook to quickly configure and setup any Linux distro with specific applications, dotfiles, and just overall tools that I prefer to use when doing development work. It is currently under development.
 
 ##TODO (in no particular order)
-* dotfile clone and copy from repo
+* dotfile clone and copy from repo (I think this has to be done last as they depend on the other software to be installed first to ensure the configuration works)
 * development repo's clone
 * git
-* zsh + tmux + vim
+* zsh 
+  * zplug (the zsh package manager)
+* tmux
+* vim
+  * vim-plug
 * version managers
-  * chruby + ruby-install + ruby
-  * + necessary rubygems like bundler
-  * virtualenv + python
-  * nvm + node (you never know haha)
+  * RUBY: chruby + ruby-install + ruby
+    * bundler
+    * rspec
+  * PYTHON: virtualenv + python
+  * NODE: nvm + node (you never know haha)
 * postgres
 * virtualbox
 * vagrant
+* spotify
 * f.lux or equivalent
 * caffeine or equivalent
 * a better terminal (iTerm2 or Guake?)
