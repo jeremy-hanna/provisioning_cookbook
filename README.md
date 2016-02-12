@@ -2,7 +2,7 @@
 This repo is to house a cookbook to quickly configure and setup any Linux distro with specific applications, dotfiles, and just overall tools that I prefer to use when doing development work. It is currently under development.
 
 ##TODO (in no particular order)
-* dotfile clone and copy from repo (I think this has to be done last as they depend on the other software to be installed first to ensure the configuration works)
+* dotfile clone and copy from repo (this would probably be done last so it would not be overwritten by all the dependecies)
 * development repo's clone
 * git
 * zsh 
