@@ -7,6 +7,7 @@ This repo is to house a cookbook to quickly configure and setup any Linux distro
 * git
 * zsh 
   * zplug (the zsh package manager)
+  * oh-my-zsh
 * tmux
 * vim
   * vim-plug
