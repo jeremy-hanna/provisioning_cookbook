@@ -9,7 +9,7 @@ This repo is to house a cookbook to quickly configure and setup any Linux distro
   * zplug (the zsh package manager)
   * oh-my-zsh
 * tmux
-* vim
+* vim (maybe NeoVim?)
   * vim-plug
 * version managers
   * RUBY: chruby + ruby-install + ruby
