@@ -5,17 +5,23 @@ This repo is to house a cookbook to quickly configure and setup any Linux distro
 * dotfile clone and copy from repo (this would probably be done last so it would not be overwritten by all the dependecies)
 * development repo's clone
 * git
-* zsh + tmux + vim
-* antigen + oh-my-zsh
+* zsh 
+  * zplug (the zsh package manager)
+  * oh-my-zsh
+* tmux
+* vim (maybe NeoVim?)
+  * vim-plug
 * version managers
-  * chruby + ruby-install + ruby
-  * + necessary rubygems like bundler
-  * virtualenv + python
-  * nvm + node (... you never know haha)
+  * RUBY: chruby + ruby-install + ruby
+    * bundler
+    * rspec
+  * PYTHON: virtualenv + python
+  * NODE: nvm + node (you never know haha)
 * postgres
 * virtualbox
 * vagrant
-* f.lux or equivalent (redshift)
+* spotify
+* f.lux or equivalent
 * caffeine or equivalent
 * a better terminal (iTerm2 or Guake?)
 * Firefox + bookmarks + extensions
