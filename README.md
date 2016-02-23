@@ -18,6 +18,8 @@ This repo is to house a cookbook to quickly configure and setup any Linux distro
 * f.lux or equivalent (redshift)
 * caffeine or equivalent
 * a better terminal (iTerm2 or Guake?)
+* Firefox + bookmarks + extensions
+* karabiner
 
 ##Reference
 * http://ryanbigg.com/2014/10/ubuntu-ruby-ruby-install-chruby-and-you//
