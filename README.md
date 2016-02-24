@@ -28,6 +28,7 @@ This repo is to house a cookbook to quickly configure and setup any Linux distro
 * karabiner
 
 ##Reference
+* https://github.com/mattstratton/workstation-cookbook
 * http://ryanbigg.com/2014/10/ubuntu-ruby-ruby-install-chruby-and-you//
 * https://github.com/cowboy/dotfiles
 * http://technology.customink.com/blog/2012/05/28/provision-your-laptop-with-chef-part-1/
