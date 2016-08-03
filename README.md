@@ -1,6 +1,11 @@
 # my-provisioning_cookbook
 This repo is to house a cookbook to quickly configure and setup any Linux distro with specific applications, dotfiles, and just overall tools that I prefer to use when doing development work. It is currently under development.
 
+## Process:
+1. clone repo to new machine
+2. run `./onboard-<os>.sh` to install dependecies for chef on that machine
+3. chef cookbook to provision the machine correctly
+
 ##TODO (in no particular order)
 * dotfile clone and copy from repo (this would probably be done last so it would not be overwritten by all the dependecies)
 * development repo's clone
@@ -17,14 +22,31 @@ This repo is to house a cookbook to quickly configure and setup any Linux distro
     * rspec
   * PYTHON: virtualenv + python
   * NODE: nvm + node (you never know haha)
+
+### System Configs
+
+Linux only
+
+OS X only
+* cursor movement speed for OS X - terminal command
+* Dock icons - terminal command
+
+### Terminal configs
+
+### Applications
+* a better terminal (iTerm2 or Guake?)
 * postgres
 * virtualbox
 * vagrant
 * spotify
 * f.lux or equivalent
 * caffeine or equivalent
-* a better terminal (iTerm2 or Guake?)
 * Firefox + bookmarks + extensions
+* KeePassX password database
+
+Linux only
+
+OS X only
 * karabiner
 
 ##Reference
