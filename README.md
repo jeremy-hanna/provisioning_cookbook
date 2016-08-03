@@ -43,6 +43,9 @@ OS X only
 * caffeine or equivalent
 * Firefox + bookmarks + extensions
 * KeePassX password database
+* Dropbox
+* Slack
+* Boostnote
 
 Linux only
 
