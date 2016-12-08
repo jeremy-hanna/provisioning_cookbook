@@ -6,14 +6,8 @@
 # Install xcode-tools
 xcode-select --install
 
-# Install Homebrew
-ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
+# Install ansible
+sudo pip install ansible
 
-# Install latest Ruby to use Chef: chruby + ruby-install
-# (sources will be added when the dotfiles are pulled)
-brew install chruby
-brew install ruby-install
-sudo ruby-install ruby
-
-# Always have bundler.
-gem install bundler
+# Provision with ansible
+ansible-galaxy install -r requirements.yml && ansible-playbook main.yml -i inventory -K

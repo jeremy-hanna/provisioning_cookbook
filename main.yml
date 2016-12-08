@@ -1,0 +1,26 @@
+---
+- hosts: all
+  connection: local
+
+  vars_files:
+    - default.config.yml
+
+  pre_tasks:
+    - include_vars: "{{ item }}"
+      with_fileglob:
+        - ../config.yml
+
+  roles:
+    - jhanna.homebrew
+    - jhanna.dotfiles
+    - name: jhanna.mas
+      when: mas_installed_app_ids
+
+  tasks:
+    - include: tasks/ansible-setup.yml
+    - include: tasks/preferences.yml
+
+    # TODO: Use sudo once .osx can be run via root with no user interaction.
+    - name: Run .osx dotfiles.
+      shell: ~/.osx --no-restart
+      changed_when: false
