@@ -6,20 +6,13 @@ This repo is to house a cookbook to quickly configure and setup any Linux distro
 2. run `./onboard-<os>.sh` to install dependecies for ansible
 
 ##TODO (in no particular order)
-* development repo's clone
-* git
-* zsh 
-  * zplug (the zsh package manager)
-  * oh-my-zsh
+* SSH key solution
+* Password solution
+* zsh < w/ zplug (package manager) and oh-my-zsh (theme) >
 * tmux
-* vim (maybe NeoVim?)
-  * vim-plug
-* version managers
-  * RUBY: chruby + ruby-install + ruby
-    * bundler
-    * rspec
-  * PYTHON: virtualenv + python
-  * NODE: nvm + node (you never know haha)
+* vim-plug for vim
+* Language Environment Managers (RVM, NVM, VirtualEnv, etc)
+* after install script to open the applications installed and ensure they work
 
 ### System Configs
 
@@ -28,8 +21,6 @@ Linux only
 
 OS X only
 * Dock icons - terminal command
-
-### Terminal configs
 
 ### Applications
 * postgres
