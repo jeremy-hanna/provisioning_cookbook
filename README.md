@@ -6,7 +6,6 @@ This repo is to house a cookbook to quickly configure and setup any Linux distro
 2. run `./onboard-<os>.sh` to install dependecies for ansible
 
 ##TODO (in no particular order)
-* dotfile clone and copy from repo (this would probably be done last so it would not be overwritten by all the dependecies)
 * development repo's clone
 * git
 * zsh 
@@ -28,30 +27,20 @@ Linux only
 * change backspace to \ and vice-versa
 
 OS X only
-* cursor movement speed for OS X - terminal command
 * Dock icons - terminal command
 
 ### Terminal configs
 
 ### Applications
 * postgres
-* virtualbox
-* vagrant
-* spotify
-* Firefox + bookmarks + extensions
-* KeePassX password database
-* Dropbox
-* Slack
+* KeePassX or alternative password database
 * Boostnote
 
 Linux only
 * Redshift
 
 OS X only
-* karabiner and prefs
-* f.lux
-* caffeine
-* iTerm
+* karabiner prefs
 
 ##Reference
 * https://github.com/geerlingguy/mac-dev-playbook

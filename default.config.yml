@@ -7,12 +7,11 @@ dotfiles_repo: https://github.com/jeremy-hanna/dotfiles.git
 dotfiles_repo_accept_hostkey: yes
 dotfiles_repo_local_destination: ~/Development/GitHub/dotfiles
 dotfiles_files:
-  - .bash_profile
   - .gitconfig
   - .gitignore
-  - .inputrc
   - .osx
   - .vimrc
+  - .zshrc
 
 homebrew_installed_packages:
   # - ansible # Installed via Pip.
@@ -52,8 +51,10 @@ homebrew_taps:
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
   - docker
+  - docker
   - dropbox
   - fing
+  - flux
   - firefox
   - google-chrome
   - iterm2
@@ -65,6 +66,7 @@ homebrew_cask_apps:
   - skitch
   - slack
   - spotify
+  - tunnelblick
   - vagrant
   - virtualbox
   - vlc
