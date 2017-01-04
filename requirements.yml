@@ -1,4 +1,4 @@
 ---
-- name: jhanna.dotfiles
-- name: jhanna.homebrew
-- name: jhanna.mas
+- name: geerlingguy.dotfiles
+- name: geerlingguy.homebrew
+- name: geerlingguy.mas

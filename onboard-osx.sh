@@ -7,6 +7,7 @@
 xcode-select --install
 
 # Install ansible
+sudo easy_install pip
 sudo pip install ansible
 
 # Provision with ansible

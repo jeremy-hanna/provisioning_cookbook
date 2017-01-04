@@ -47,7 +47,6 @@ homebrew_taps:
   - caskroom/cask
   - homebrew/binary
   - homebrew/dupes
-  - homebrew/php
   - homebrew/versions
 
 homebrew_cask_appdir: /Applications
@@ -57,12 +56,15 @@ homebrew_cask_apps:
   - fing
   - firefox
   - google-chrome
+  - iterm2
+  - karabiner
   - licecap
   - limechat
   - yujitach-menumeters # Note: Using forked version for 10.11+ support
   - nvalt
   - skitch
   - slack
+  - spotify
   - vagrant
   - virtualbox
   - vlc
