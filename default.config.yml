@@ -50,6 +50,7 @@ homebrew_taps:
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
+  - boostnote
   - docker
   - dropbox
   - fing
@@ -57,7 +58,7 @@ homebrew_cask_apps:
   - firefox
   - google-chrome
   - iterm2
-  - karabiner
+  - karabiner-elements
   - licecap
   - limechat
   - yujitach-menumeters # Note: Using forked version for 10.11+ support
