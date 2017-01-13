@@ -7,7 +7,6 @@ This repo is to house a cookbook to quickly configure and setup any Linux distro
 
 ##TODO (in no particular order)
 * SSH key solution
-* Password solution
 * zsh < w/ zplug (package manager) and oh-my-zsh (theme) >
 * tmux
 * vim-plug for vim
@@ -24,8 +23,6 @@ OS X only
 
 ### Applications
 * postgres
-* KeePassX or alternative password database
-* Boostnote
 
 Linux only
 * Redshift
