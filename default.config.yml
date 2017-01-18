@@ -38,6 +38,7 @@ homebrew_installed_packages:
   - pv
   - python
   - readline
+  - reattach-to-user-namespace
   - sqlite
   - ssh-copy-id
   - tmux
