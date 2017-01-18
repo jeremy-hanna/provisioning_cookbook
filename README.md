@@ -6,25 +6,18 @@ This repo is to house a cookbook to quickly configure and setup any Linux distro
 2. run `./onboard-<os>.sh` to install dependecies for ansible
 
 ##TODO (in no particular order)
-* SSH key solution
-* zsh < w/ zplug (package manager) and oh-my-zsh (theme) >
-* tmux
-* vim-plug for vim
+* [support direnv](https://github.com/direnv/direnv)
 * Language Environment Managers (RVM, NVM, VirtualEnv, etc)
 * after install script to open the applications installed and ensure they work
 
-### System Configs
+### System and App Configuration
 
 Linux only
 * change backspace to \ and vice-versa
-
-OS X only
-* Dock icons - terminal command
-
-Linux only
 * Redshift
 
 OS X only
+* Dock icons - terminal command
 * karabiner prefs
 
 ##Reference
