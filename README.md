@@ -7,6 +7,7 @@ This repo is to house a cookbook to quickly configure and setup any Linux distro
 
 ##TODO (in no particular order)
 * [support direnv](https://github.com/direnv/direnv)
+* Add post_task for ssh-key gen and keychain addition
 * Language Environment Managers (RVM, NVM, VirtualEnv, etc)
 * after install script to open the applications installed and ensure they work
 
