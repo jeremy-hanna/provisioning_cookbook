@@ -9,6 +9,7 @@ dotfiles_repo_local_destination: ~/Development/GitHub/dotfiles
 dotfiles_files:
   - .gitconfig
   - .gitignore
+  - .tmux.conf
   - .osx
   - .vim
   - .vimrc
