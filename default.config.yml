@@ -10,6 +10,7 @@ dotfiles_files:
   - .gitconfig
   - .gitignore
   - .osx
+  - .vim
   - .vimrc
   - .zshrc
 
@@ -17,30 +18,32 @@ homebrew_installed_packages:
   # - ansible # Installed via Pip.
   - autoconf
   - bash-completion
+  - cowsay
   - doxygen
+  - drush
   - gettext
   - git
   - gpg
-  - hub
   - httpie
+  - hub
   - iperf
   - libdvdcss
   - libevent
-  - packer
-  - python
-  - sqlite
   - mcrypt
   - mysql
   - nmap
-  - ssh-copy-id
-  - cowsay
-  - readline
   - openssl
+  - packer
   - pv
-  - drush
-  - zsh
+  - python
+  - readline
+  - sqlite
+  - ssh-copy-id
+  - tmux
   - wget
   - wrk
+  - zplug
+  - zsh
 
 homebrew_taps:
   - homebrew/core
