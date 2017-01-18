@@ -42,7 +42,6 @@ homebrew_installed_packages:
   - tmux
   - wget
   - wrk
-  - zplug
   - zsh
 
 homebrew_taps:
