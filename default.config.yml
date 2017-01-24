@@ -20,6 +20,7 @@ homebrew_installed_packages:
   - autoconf
   - bash-completion
   - cowsay
+  - direnv
   - doxygen
   - drush
   - gettext
