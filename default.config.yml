@@ -20,6 +20,7 @@ homebrew_installed_packages:
   - autoconf
   - bash-completion
   - cowsay
+  - chruby
   - doxygen
   - drush
   - gettext
@@ -37,6 +38,7 @@ homebrew_installed_packages:
   - packer
   - pv
   - python
+  - ruby-install
   - readline
   - reattach-to-user-namespace
   - sqlite
