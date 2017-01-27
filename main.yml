@@ -21,6 +21,7 @@
     - name: Check for zplug
       shell: command -v zplug
       register: zplug_exists
+      ignore_errors: yes
 
     - name: Install zPlug for ZSH
       shell: curl -sL zplug.sh/installer | zsh
