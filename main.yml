@@ -19,13 +19,12 @@
 
     # install zplug if it is not already installed, not sure how to update it
     - name: Check for zplug
-      shell: command -v zplug
+      stat: path=~/.zplug
       register: zplug_exists
-      ignore_errors: yes
 
     - name: Install zPlug for ZSH
+      when: zplug_exists.stat.exists == false
       shell: curl -sL zplug.sh/installer | zsh
-      when: zplug_exists != 0
 
     # TODO: Use sudo once .osx can be run via root with no user interaction.
     - name: Run .osx dotfiles.
