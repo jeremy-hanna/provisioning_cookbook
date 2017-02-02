@@ -27,6 +27,7 @@ homebrew_installed_packages:
   - gettext
   - git
   - gpg
+  - go
   - httpie
   - hub
   - iperf
