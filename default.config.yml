@@ -38,6 +38,7 @@ homebrew_installed_packages:
   - nmap
   - openssl
   - packer
+  - pandoc
   - pv
   - python
   - readline
