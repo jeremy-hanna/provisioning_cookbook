@@ -10,6 +10,9 @@ This repo is to house a cookbook to quickly configure and setup any Linux distro
 * Add post_task for ssh-key gen and keychain addition
 * Language Environment Managers (RVM, NVM, VirtualEnv, etc)
 * after install script to open the applications installed and ensure they work
+* it might be nice to be able to see what has changed from the default package list on a local machine via a script
+  - eg. I brew installed limechat on the box, but it is not in the provisioning file
+  - or I added to my dotfiles but forgot and didn't push remotely so provisioning will wipe those changes
 
 ### System and App Configuration
 
