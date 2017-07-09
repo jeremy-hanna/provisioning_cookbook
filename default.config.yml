@@ -69,6 +69,7 @@ homebrew_cask_apps:
   - google-chrome
   - iterm2
   - karabiner-elements
+  - kindlegen
   - licecap
   - limechat
   - yujitach-menumeters # Note: Using forked version for 10.11+ support
