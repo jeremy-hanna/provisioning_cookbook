@@ -22,6 +22,7 @@ homebrew_installed_packages:
   - bash-completion
   - cowsay
   - chruby
+  - direnv
   - doxygen
   - drush
   - gettext
