@@ -1,0 +1,24 @@
+---
+homebrew_cask_apps:
+  - android-file-transfer
+  - boostnote
+  - docker
+  - dropbox
+  - fing
+  - flux
+  - firefox
+  - google-chrome
+  - iterm2
+  - karabiner-elements
+  - kindlegen
+  - licecap
+  - limechat
+  - yujitach-menumeters # Note: Using forked version for 10.11+ support
+  - nvalt
+  - skitch
+  - slack
+  - spotify
+  - tunnelblick
+  - vagrant
+  - virtualbox
+  - vlc

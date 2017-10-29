@@ -1,0 +1,36 @@
+---
+homebrew_installed_packages:
+  # - ansible # Installed via Pip.
+  - ack
+  - autoconf
+  - bash-completion
+  - cowsay
+  - chruby
+  - doxygen
+  - drush
+  - gettext
+  - git
+  - gpg
+  - go
+  - httpie
+  - hub
+  - iperf
+  - libdvdcss
+  - libevent
+  - mcrypt
+  - mysql
+  - nmap
+  - openssl
+  - packer
+  - pandoc
+  - pv
+  - python
+  - readline
+  - reattach-to-user-namespace
+  - sqlite
+  - ssh-copy-id
+  - tmux
+  - tmate
+  - wget
+  - wrk
+  - zsh

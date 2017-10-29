@@ -4,6 +4,10 @@
 
   vars_files:
     - default.config.yml
+    - group_vars/brew_config.yml
+    - group_vars/brew_list.yml
+    - group_vars/brew_cask_list.yml
+    - group_vars/dotfiles.yml
 
   pre_tasks:
     - include_vars: "{{ item }}"
