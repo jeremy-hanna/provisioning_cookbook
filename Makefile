@@ -1,11 +1,11 @@
 .DEFAULT_GOAL := help
 
 install-dep: ## Install the dependencies to provision
-	$(info Installing xcode-tools..)
-	@xcode-select --install
-	$(info Installing ansible..)
-	@sudo easy_install pip
-	@sudo pip install ansible
+	@echo 'Checking if xcode-tools needs to be installed..'
+	@if ! xcode-select -p > /dev/null; then echo 'Missing xcode-tools, installing..'; xcode-select --install; fi
+	@echo 'Checking if ansible needs to be installed..'
+	@if ! which pip > /dev/null; then echo 'Missing pip, installing..'; sudo easy_install pip; fi
+	@if ! pip show ansible > /dev/null; then echo 'Missing ansible, installing..'; sudo pip install ansible; fi
 
 check-dotfiles: ## cd to ../dotfiles and check if dirty
 	$(info Checking if dotfiles are dirty..)
