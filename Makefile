@@ -12,8 +12,10 @@ check-dotfiles: ## cd to ../dotfiles and check if dirty
 	@cd ../dotfiles && if ! git diff --exit-code --quiet; then echo 'Your dotfiles are dirty! Exiting'; exit 1; fi
 
 check-brewlist: ## Make sure current installed brewlist matches what is in the default.config.yml
-	$(info Checking if brewlist changed..)
-	$(error TODO)
+	@echo 'Checking if brew list changed..'
+	@if ! ruby .utility/scripts/brew.rb; then echo 'Warning! Some homebrew packages not included in playbook. Continuing'; fi
+	@echo 'Checking if brew cask list changed..'
+	@if ! ruby .utility/scripts/brew_cask.rb; then echo 'Warning! Some homebrew casks not included in playbook. Continuing'; fi
 
 provision-test: check-dotfiles ## testing that the dependencies act the way they should?
 	$(info Provisioning test echo..)

@@ -2,6 +2,7 @@
 homebrew_cask_apps:
   - android-file-transfer
   - boostnote
+  - caffeine
   - docker
   - dropbox
   - fing
@@ -18,6 +19,7 @@ homebrew_cask_apps:
   - skitch
   - slack
   - spotify
+  - transmission
   - tunnelblick
   - vagrant
   - virtualbox
