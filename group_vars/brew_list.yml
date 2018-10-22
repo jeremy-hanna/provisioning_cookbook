@@ -4,32 +4,40 @@ homebrew_installed_packages:
   - ack
   - autoconf
   - bash-completion
-  - cowsay
+  - bat
   - chruby
+  - ctags
   - doxygen
   - drush
+  - fd
+  - fzf
   - gettext
   - git
   - gpg
   - go
   - heroku/brew/heroku
+  - htop
   - httpie
   - hub
   - iperf
+  - jq
   - libdvdcss
   - libevent
   - mcrypt
   - mysql
+  - ncdu
   - nmap
   - openssl
   - packer
   - pandoc
+  - prettyping
   - pv
   - python
   - readline
   - reattach-to-user-namespace
   - sqlite
   - ssh-copy-id
+  - tldr
   - tmux
   - tmate
   - wget
