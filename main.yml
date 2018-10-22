@@ -28,7 +28,7 @@
 
     - name: Install zPlug for ZSH
       when: zplug_exists.stat.exists == false
-      shell: curl -sL zplug.sh/installer | zsh
+      shell: curl -sL --proto-redir -all,https https://raw.githubusercontent.com/zplug/installer/master/installer.zsh | zsh
 
     - name: Check for GoPath
       stat: path=~/src/go
